@@ -1,0 +1,22 @@
+/* Styling for the navigation menu */
+.md-nav__list {
+    background-color: #afafaf; /* Background color for the menu section */
+    border-right: 2px solid #ddd; /* Border on the right side of the menu section */
+  }
+  
+  /* Styling for the menu items */
+  .md-nav__list a {
+    padding: 10px 20px; /* Padding for menu items */
+    display: block; /* Display as block to take full width */
+    color: #474747; /* Text color */
+    text-decoration: none; /* Remove default underline */
+  }
+  
+  /* Highlight effect on hover */
+  .md-nav__list a:hover,.md-nav__list a:active {
+    width: 107%;
+    background-color: #a6a6a6; /* Background color on hover */
+    color: white;
+    margin-left: -15px;
+  }
+  
