@@ -5,14 +5,26 @@ theme:
   # name: readthedocs
   features:
     # - toc.integrate
-    - navigation.tabs
+    - announce.dismiss
+    # - navigation.tabs
     - navigation.sections
-    - navigation.top
+    - navigation.sidebar.main
+    - navigation.sidebar.collapse
+    - navigation.top   
+    - navigation.sections
+    - navigation.instant
+    - icons
+    - icon_links
     - search.suggest
     - search.highlight
     - content.tabs.link
     - content.code.annotation
     - content.code.copy 
+    - toc.follow
+    - navigation.footer
+    - content.tabs.link
+
+
   language: en
   palette:
   #   - scheme: default
@@ -39,12 +51,18 @@ theme:
     #   background: '#FAFAFA'  # Light background color (e.g., light grey)
     #   text: '#212121'        # Light text color (e.g., dark grey)
     #   link: '#FFAB40'        # Light link color (e.g., orange)
-
+# nav:
+#     - Home:
+#       - '<i class="fa fa-info-circle"></i> Introduction': index.md
+#       - '<i class="fa fa-lock"></i> Security': security.md
+#       - '<i class="fa fa-wrench"></i> Workspace Settings': workspace_settings.md
 nav:
-   - Home:
+    
       - '<i class="fa fa-info-circle"></i> Introduction': index.md
       - '<i class="fa fa-lock"></i> Security': security.md
       - '<i class="fa fa-wrench"></i> Workspace Settings': WorkspaceSettings.md
+
+
 
 # nav:
 #   - Home:
