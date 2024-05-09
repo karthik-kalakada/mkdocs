@@ -71,6 +71,6 @@ jobs:
         run: mkdocs gh-deploy --force
 
       - name: Configure custom domain
-        run: echo "docs.purpledatainc" > ./docs/CNAME
+        run: echo "docs.purpledatainc.com" > ./docs/CNAME
         shell: bash
         working-directory: ${{ github.workspace }}
