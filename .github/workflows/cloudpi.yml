@@ -24,10 +24,7 @@
 #       - name: Configure custom domain
 #         run: echo "docs.purpledatainc.com" > ./docs/CNAME
 #         # Replace "docs.purpledatainc.com" with your custom domain
-
-
-
-
+          # working-directory:
 name: cloudpi
 
 on:
