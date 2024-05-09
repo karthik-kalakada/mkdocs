@@ -75,6 +75,6 @@ jobs:
         shell: bash
         working-directory: ${{ github.workspace }}
 
-    environment:
-      name: github-pages
-      url: https://docs.purpledatainc.com/
+    # environment:
+    #   name: github-pages
+    #   url: https://docs.purpledatainc.com/
