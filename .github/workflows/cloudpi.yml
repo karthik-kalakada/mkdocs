@@ -1,3 +1,30 @@
+# name: cloudpi
+# on:
+#   push:
+#     branches:
+#       - master 
+#       - main
+# permissions:
+#   contents: write
+# jobs:
+#   deploy:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v3
+#       - uses: actions/setup-python@v4
+#         with:
+#           python-version: 3.x
+#       - uses: actions/cache@v2
+#         with:
+#           key: 
+#           path: .cache
+#       - run: pip install mkdocs-material
+#       - run: pip install pillow cairosvg
+#       - run: mkdocs gh-deploy --force
+#       - name: Configure custom domain
+#         run: echo "docs.purpledatainc.com" > ./docs/CNAME
+#         # Replace "docs.purpledatainc.com" with your custom domain
+          # working-directory:
 name: cloudpi
 
 on:
@@ -16,6 +43,13 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -25,8 +59,8 @@ jobs:
       - name: Cache dependencies
         uses: actions/cache@v2
         with:
-          key: ${{ github.ref }}
           path: .cache
+          key: ${{ runner.os }}-python-${{ hashFiles('**/*.txt') }}
 
       - name: Install dependencies
         run: |
@@ -38,4 +72,5 @@ jobs:
 
       - name: Configure custom domain
         run: echo "docs.purpledatainc.com" > ./docs/CNAME
+        shell: bash
         working-directory: ${{ github.workspace }}
