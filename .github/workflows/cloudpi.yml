@@ -21,3 +21,7 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install pillow cairosvg
       - run: mkdocs gh-deploy --force
+      - name: Configure custom domain
+        run: echo "docs.purpledatainc.com" > ./docs/CNAME
+        # Replace "docs.purpledatainc.com" with your custom domain
+        working-directory: ${{ github.workspace }}
