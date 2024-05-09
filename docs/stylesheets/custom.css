@@ -22,4 +22,7 @@
     color: white;
     margin-left: -15px;
   }
-  
+.main-heading {
+    /* Style your main heading here */
+    display: none; /* This will hide the main heading from the sidebar */
+}

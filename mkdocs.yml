@@ -5,7 +5,7 @@ theme:
   # name: readthedocs
   features:
     # - toc.integrate
-    - announce.dismiss
+    # - announce.dismiss
     # - navigation.tabs
     - navigation.sections
     - navigation.sidebar.main
@@ -23,7 +23,8 @@ theme:
     - toc.follow
     - navigation.footer
     - content.tabs.link
-
+    - navigation.path
+    # - header.autohide
 
   language: en
   palette:
@@ -31,14 +32,14 @@ theme:
   #     toggle:
   #       icon: material/toggle-switch-off-outline 
   #       name: Switch to dark mode
-      primary: deep purple
-      accent: light blue 
+        primary: deep purple
+        accent: light blue 
   #   - scheme: slate 
   #     toggle:
   #       icon: material/toggle-switch
   #       name: Switch to light mode    
-  #     primary: teal
-  #     accent: purple
+  #       primary: teal
+  #       accent: purple
     # - scheme: dark
     #   primary: '#263238'   # Dark primary color (e.g., dark blue-grey)
     #   accent: '#FFAB40'    # Dark accent color (e.g., orange)
