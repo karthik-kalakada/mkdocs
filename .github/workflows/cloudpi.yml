@@ -44,7 +44,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Node.js 20
         uses: actions/setup-node@v3
@@ -77,4 +80,4 @@ jobs:
 
     environment:
       name: github-pages
-      url: https://docs.purpledatainc.com
+      url: https://docs.purpledatainc.com/
