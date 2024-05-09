@@ -77,4 +77,4 @@ jobs:
 
     environment:
       name: github-pages
-      url: https://docs.purpledatainc.com/
+      url: https://docs.purpledatainc.com
