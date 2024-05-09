@@ -24,55 +24,57 @@
 #       - name: Configure custom domain
 #         run: echo "docs.purpledatainc.com" > ./docs/CNAME
 #         # Replace "docs.purpledatainc.com" with your custom domain
-          # working-directory:
-            name: cloudpi
 
-            on:
-              push:
-                branches:
-                  - master 
-                  - main
-            
-            permissions:
-              contents: write
-            
-            jobs:
-              deploy:
-                runs-on: ubuntu-latest
-            
-                steps:
 
-            
-                  - name: Set up Node.js 20
-                    uses: actions/setup-node@v3
-                    with:
-                      node-version: 20
-            
-                  - name: Set up Python
-                    uses: actions/setup-python@v4
-                    with:
-                      python-version: 3.x
-            
-                  - name: Cache dependencies
-                    uses: actions/cache@v2
-                    with:
-                      path: .cache
-                      key: ${{ runner.os }}-python-${{ hashFiles('**/*.txt') }}
-            
-                  - name: Install dependencies
-                    run: |
-                      pip install mkdocs-material
-                      pip install pillow cairosvg
-            
-                  - name: Deploy MkDocs site
-                    run: mkdocs gh-deploy --force
-            
-                  - name: Configure custom domain
-                    run: echo "docs.purpledatainc.com" > ./docs/CNAME
-                    shell: bash
-                    working-directory: ${{ github.workspace }}
-            
-                environment:
-                  name: github-pages
-                  url: https://docs.purpledatainc.com/
-            
+
+
+name: cloudpi
+
+on:
+  push:
+    branches:
+      - master 
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: .cache
+          key: ${{ runner.os }}-python-${{ hashFiles('**/*.txt') }}
+
+      - name: Install dependencies
+        run: |
+          pip install mkdocs-material
+          pip install pillow cairosvg
+
+      - name: Deploy MkDocs site
+        run: mkdocs gh-deploy --force
+
+      - name: Configure custom domain
+        run: echo "docs.purpledatainc.com" > ./docs/CNAME
+        shell: bash
+        working-directory: ${{ github.workspace }}
+
+    environment:
+      name: github-pages
+      url: https://docs.purpledatainc.com/
