@@ -2,6 +2,10 @@ site_name: Cloudpi User Guide v013
 site_url: https://docs.purpledatainc.com
 theme:
   name: material
+  logo: images/Clip path group.svg
+  font:
+    text: Poppins
+
   # name: ringcentral
   # name: readthedocs
   features:
@@ -29,42 +33,32 @@ theme:
 
   language: en
   palette:
-  #   - scheme: default
-  #     toggle:
-  #       icon: material/toggle-switch-off-outline 
-  #       name: Switch to dark mode
+
         primary: deep purple
-        accent: light blue 
-  #   - scheme: slate 
-  #     toggle:
-  #       icon: material/toggle-switch
-  #       name: Switch to light mode    
-  #       primary: teal
-  #       accent: purple
-    # - scheme: dark
-    #   primary: '#263238'   # Dark primary color (e.g., dark blue-grey)
-    #   accent: '#FFAB40'    # Dark accent color (e.g., orange)
-    #   background: '#212121'   # Dark background color (e.g., dark grey)
-    #   text: '#FFFFFF'         # Dark text color (e.g., white)
-    #   link: '#FFAB40'         # Dark link color (e.g., orange)
-    # - scheme: light
-    #   primary: '#FFFFFF'     # Light primary color (e.g., white)
-    #   accent: '#FFAB40'      # Light accent color (e.g., orange)
-    #   background: '#FAFAFA'  # Light background color (e.g., light grey)
-    #   text: '#212121'        # Light text color (e.g., dark grey)
-    #   link: '#FFAB40'        # Light link color (e.g., orange)
+        accent: deep purple
+
 # nav:
 #     - Home:
 #       - '<i class="fa fa-info-circle"></i> Introduction': index.md
 #       - '<i class="fa fa-lock"></i> Security': security.md
 #       - '<i class="fa fa-wrench"></i> Workspace Settings': workspace_settings.md
 nav:
-    
-      - '<i class="fa fa-info-circle"></i> Introduction': index.md
-      - '<i class="fa fa-lock"></i> Security': security.md
-      - '<i class="fa fa-wrench"></i> Workspace Settings': WorkspaceSettings.md
+    - '<i class="fa fa-info-circle"></i> Introduction': index.md   
+    - '<i class="fa fa-window-maximize"></i> Worksapce': workspace.md
+    - 'Understanding Project': project.md
+    - 'Understanding Project Group': projectgroup.md
+    - '<i class="fa fa-wrench"></i> Workspace Settings': WorkspaceSettings.md
+    - 'RBAC': rbac.md
+    - '<i class="fa fa-lock"></i> Security': security.md
+    - 'Getting Started': gettingstarted.md
+    - 'Home Page': homepage.md
+    - 'Project Settings': projectsetting.md
+    - 'Team Collaboration': teamcollaboration.md
 
-
+# svg_file_content: |
+#   <svg width="100" height="100">
+#     <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+#   </svg>
 
 # nav:
 #   - Home:

@@ -1,28 +1,53 @@
+:root {
+  /* --md-primary-fg-color:        #EE0F0F; */
+  --md-primary-fg-color:        #6F44A6;
+  --md-primary-fg-color--light: #AC8AE7;
+  /* --md-primary-fg-color--dark:  #90030C; */
+}
+
+.md-main__inner {
+  margin-top: 0px  ;
+}
+
 /* Styling for the navigation menu */
-
-
-
-.md-nav__list {
-    background-color: #afafaf; /* Background color for the menu section */
-    border-right: 2px solid #ddd; /* Border on the right side of the menu section */
+.md-nav--primary .md-nav__list {
+    background-color: #d1d1d1;
+     /* Background color for the menu section */
+    border-right: 2px solid #ddd; 
+    /* Border on the right side of the menu section */
+    padding-left: -10px;
   }
   
   /* Styling for the menu items */
-  .md-nav__list a {
-    padding: 10px 20px; /* Padding for menu items */
-    display: block; /* Display as block to take full width */
-    color: #474747; /* Text color */
-    text-decoration: none; /* Remove default underline */
+  .md-nav--primary .md-nav__list a {
+    padding: 10px 20px; 
+    /* Padding for menu items */
+    display: block; 
+    /* Display as block to take full width */
+    color: #474747; 
+    /* Text color */
+    text-decoration: none; 
+    /* Remove default underline */
+    
   }
   
   /* Highlight effect on hover */
-  .md-nav__list a:hover,.md-nav__list a:active {
-    width: 107%;
-    background-color: #a6a6a6; /* Background color on hover */
-    color: white;
-    margin-left: -15px;
+  .md-nav--primary .md-nav__list a:hover,.md-nav__list a:active {
+    width: 106%;
+    background-color: #a6a6a6; 
+    /* Background color on hover */
+    /* color: #AC8AE7; */
+    margin-left: -12px;
   }
-.main-heading {
+
+  .md-nav--primary .main-heading {
     /* Style your main heading here */
-    display: none; /* This will hide the main heading from the sidebar */
+    display: none; 
+    /* This will hide the main heading from the sidebar */
+}
+
+.md-nav--secondary .md-nav__list a:hover,
+.md-nav--secondary .md-nav__list a:active {
+    font-size: calc(1em + 0.1pt);
+    font-weight: bold;
 }

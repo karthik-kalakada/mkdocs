@@ -1,3 +1,4 @@
+
 Greetings and welcome to the world of CloudPi! Brought to you by PurpleData Inc., CloudPi 
 is an all-encompassing multi-cloud cost management tool. This guide is specifically curated 
 to aid Cloud Architects, FinOps Analysts, and Cloud Managers.
@@ -22,29 +23,30 @@ efficiency and accountability.
 project group hierarchy.
 - **Role-Based Access Control (RBAC)**: Securely manage who has access to what with 
 granular permissions.
-- User Management: Add or remove users, assign roles, and manage permissions.
-- Team Collaboration: Enhance accountability in cloud management with team 
+- **User Management**: Add or remove users, assign roles, and manage permissions.
+- **Team Collaboration**: Enhance accountability in cloud management with team 
 collaboration features.
 
-- Tag Management: Implement tagging strategies for projects to enforce 
+- **Tag Management**: Implement tagging strategies for projects to enforce 
 responsibility and policies.
-• Multi-Cloud Billing Hub: Centralize your billing for chargeback, show back 
+
+- **Multi-Cloud Billing Hub**: Centralize your billing for chargeback, show back 
 management, and custom invoice generation.
-• Budget Management: Set and track budgets at the project and service group levels.
-• Savings Plans Recommendations: Get insights on the best savings plans for effective 
+- **Budget Management**: Set and track budgets at the project and service group levels.
+- **Savings Plans Recommendations**: Get insights on the best savings plans for effective 
 billing management.
-• Cost Optimizations & Recommendations: Receive tailored suggestions to reduce 
+- **Cost Optimizations & Recommendations**: Receive tailored suggestions to reduce 
 expenses.
-• Workflow Integration & Automation: Streamline operations with customizable 
+- **Workflow Integration & Automation**: Streamline operations with customizable 
 workflows.
-• Custom Dashboard: Generate reports based on tags and accounts for detailed 
+- **Custom Dashboard**: Generate reports based on tags and accounts for detailed 
 insights.
-• Notifications & Alerts: Stay informed with real-time updates on your cloud 
+- **Notifications & Alerts**: Stay informed with real-time updates on your cloud 
 environment.
-• Multi-Tenancy: Manage multiple clients or Business Units within a single instance of 
+- **Multi-Tenancy**: Manage multiple clients or Business Units within a single instance of 
 CloudPi.
-• Workspace Customization: Tailor the interface to suit your organization's needs.
-• Support: Access professional help whenever you need it.
+- **Workspace Customization**: Tailor the interface to suit your organization's needs.
+- **Support**: Access professional help whenever you need it.
 ## Welcome to CloudPi
 Once you've successfully logged in, take a moment to get comfortable with the home page 
 interface. This is your landing page, your command center. It's designed to provide a highlevel overview of all the projects you can access.
@@ -58,8 +60,9 @@ applications or divisions serving different clients.
 In Workspace settings, setup third party workflow tools like Jira and ServiceNow. 
 Workspace Admin can add/delete workspace users and other users, can assign roles.
 Workspace Users get access to Executive level reports or customized reports across the 
-projects or project groups.
-Workspace Settings management 
+[projects](http://cloudpie.ai:3000/) or [project groups](http://cloudpie.ai:3000/).
+
+### Workspace Settings management 
 ## Understanding Projects
 A 'project' in CloudPi is a logical grouping of cloud resources based on the cloud provider 
 account and/or tags. Essentially, project is for a team to focus on analyzing various cloud 
@@ -75,7 +78,7 @@ A CloudPi Project is configured for managing cloud costs and management per
 ‘Environment’
 A CloudPi Project is used for product resources in one cloud provider.
 A CloudPi Project is used per customer basis.
-Click here for Creating New Projects
+[Click here for Creating New Projects](http://cloudpie.ai:3000/)
 
 ## Understanding Project Group
 A 'Project Group' represents a set of projects organized together to mirror a department or 

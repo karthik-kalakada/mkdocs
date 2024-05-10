@@ -20,19 +20,21 @@ encompass capabilities that allow data viewing and not data modification.
 ## Addressing Security Concerns
 We understand the importance of security for our customers. Here are the steps we take to 
 safeguard your information:
-- Data Encryption: All data, both in transit and at rest, is encrypted using industry standard encryption protocols. This ensures that your data is protected from 
+
+- **Data Encryption**: All data, both in transit and at rest, is encrypted using industry standard encryption protocols. This ensures that your data is protected from 
 unauthorized access.
-- Compliance and Certifications: CloudPi complies with major industry standards and 
+- **Compliance and Certifications:** CloudPi complies with major industry standards and 
 regulations to ensure that we meet the highest security benchmarks.
-- Regular Security Audits: Our systems undergo regular security audits to identify and 
+- **Regular Security Audits:** Our systems undergo regular security audits to identify and 
 rectify any vulnerabilities, ensuring that our defenses remain robust against 
 emerging threats.
-- Transparent Privacy Policies: We are committed to transparency regarding how we 
+- **Transparent Privacy Policies:** We are committed to transparency regarding how we 
 handle your data. Our privacy policies clearly outline how data is collected, used, and 
 protected.
 
 ## How to Grant Access
 To set up CloudPi, follow these steps to grant read-only access securely:
+
 - Navigate to the IAM (Identity and Access Management) section of your cloud 
 provider.
 - Create a new role specifically for CloudPi with predefined policies that restrict 
