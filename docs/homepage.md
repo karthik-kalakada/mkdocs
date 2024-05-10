@@ -1,87 +1,138 @@
-# Introduction
+# Getting Started 
 
-Greetings and welcome to the world of CloudPi! Brought to you by PurpleData Inc., CloudPi is an all-encompassing multi-cloud cost management tool. This guide is specifically curated to aid Cloud Architects, FinOps Analysts, and Cloud Managers.
+- **Signing In:** 
 
-## CloudPi: A Brief Overview
+    - Navigate to the CloudPi login page provided by PurpleData Inc. 
 
-CloudPi serves as a versatile solution tailored for medium and large-scale organizations that aim to efficiently inform, analyze and optimize cloud services costs, usage and governance. We understand that keeping track of cloud expenses across different platforms can be challenging. That's where CloudPi steps in to simplify the process.
+    - Enter your credentials (provided by your system administrator). 
 
-## Who Is This Guide For?
 
-This guide primarily targets:
+## Home Page/Landing Page
 
-- **Cloud Architects:** If you're involved in designing and building an organization's cloud environment, this guide will show you how CloudPi can streamline your work, helping you create more cost-effective designs.
+The home page of each CloudPi workspace is designed to give you a comprehensive overview at a glance, facilitating efficient management and monitoring of your cloud environment. It serves as a central dashboard that highlights crucial information, tasks, and project health to streamline your workflow.
 
-- **FinOps Analysts:** Those who analyze financial data related to cloud usage will find invaluable insights here on how to use CloudPi for better cost management.
+## Navigating Home Page
 
-- **Cloud Managers:** If you oversee a team managing an organization's cloud operations, this guide will demonstrate how CloudPi can help improve your team's efficiency and accountability.
+The CloudPi home page serves as a one-stop-shop for essential workspace information. Here's what you'll find:
 
-## Features Overview
+### Workspace Settings
 
-- **Projects & groups Management:** Organize your cloud resources with project and project group hierarchy.
+- **Project List:** Displays a detailed table listing all the authorized projects with essential project information. This includes project status, recent activities, assigned team members, and other relevant data to help you manage these projects efficiently.
 
-- **Role-Based Access Control (RBAC):** Securely manage who has access to what with granular permissions.
+- **Task Widget:** Lists all high-priority tasks across different projects. This widget helps you stay on top of urgent matters needing immediate attention.
 
-- **User Management:** Add or remove users, assign roles, and manage permissions.
+- **Highlights Widget:** Offers important notices or updates that require user awareness or action. This could include updates on billing anomalies, savings opportunities, or system updates.
 
-- **Team Collaboration:** Enhance accountability in cloud management with team collaboration features.
+- **Health Status Widget:** Provides a health overview of authorized projects based on real-time data. It helps in quickly assessing the status and performance of each project, alerting you to any issues that may need resolution.
 
-- **Tag Management:** Implement tagging strategies for projects to enforce responsibility and policies.
+[image]()
 
-- **Multi-Cloud Billing Hub:** Centralize your billing for chargeback, show back management, and custom invoice generation.
+As a logged-in user, depending on your role, you have the ability to:
 
-- **Budget Management:** Set and track budgets at the project and service group levels.
+- **Create New Projects:** Simply click the "Create Project" button to start a new project.
 
-- **Savings Plans Recommendations:** Get insights on the best savings plans for effective billing management.
+- **Manage Existing Projects:** View and edit information of previously set up projects.
 
-- **Cost Optimizations & Recommendations:** Receive tailored suggestions to reduce expenses.
+- **Navigate Project Pages:** Select any project from the project list and navigate to its dedicated page. Here, manage cloud resources related to that specific project.
 
-- **Workflow Integration & Automation:** Streamline operations with customizable workflows.
+- **Modify Project Settings:** Admin users can modify project settings.
 
-- **Custom Dashboard:** Generate reports based on tags and accounts for detailed insights.
+## Creating a Project
 
-- **Notifications & Alerts:** Stay informed with real-time updates on your cloud environment.
+Initiate a project by detailing specifics like choosing an icon, stating the Project Name, Description, and Project Group (which is optional), selecting a Cloud Provider, then click next to establish the project.
 
-- **Multi-Tenancy:** Manage multiple clients or Business Units within a single instance of CloudPi.
+Project setup can be done as follows: 
 
-- **Workspace Customization:** Tailor the interface to suit your organization's needs.
 
-- **Support:** Access professional help whenever you need it.
+- ***Step 1: Cloud Setup***
 
-## Welcome to CloudPi
+    Configure Cloud Resources and Settings
 
-Once you've successfully logged in, take a moment to get comfortable with the home page interface. This is your landing page, your command center. It's designed to provide a high-level overview of all the projects you can access.
+    To create a project, you need to configure certain cloud resources and settings. Here's what you need to do:
 
-## Understanding Workspaces
+  1. Specify the following details:
+     - Account ID
+     - Region
+     - Service Groups
 
-Use workspaces for your organization when you want to structure your teams and entities, encourage team collaboration, and have organization-wide views. Each workspace ensures that data is kept separate and secure. A workspace can represent an entire organization or a specific Line of Business with multiple teams and departments. It can also be a collection of applications or divisions serving different clients.
+  2. Choose your role based on the following parameters:
+     - Cross account role
+     - Standard account role
+     - External account role
 
-In Workspace settings, setup third party workflow tools like Jira and ServiceNow.
+  3. Validate the following information:
+     - Access key and Secret key
+     - Cross account role ARN and External ID
 
-- **Workspace Admin** can add/delete workspace users and other users, can assign roles.
 
-- **Workspace Users** get access to Executive level reports or customized reports across the projects or project groups.
 
-- **Workspace Settings management**
+- ***Step 2: Team Setup***
 
-## Understanding Projects
+Invite team members by entering email id and their roles within the project. 
 
-A 'project' in CloudPi is a logical grouping of cloud resources based on the cloud provider account and/or tags. Essentially, project is for a team to focus on analyzing various cloud resources data such as billing data, inventory data, usage and utilization data, savings plans data, optimizations based on resource utilization and much more. Within each project, reports are generated catering to personas including Cloud Ops managers and Engineers.
+- ***Step 3: Tag Setup*** 
 
-**When to use Projects?**
+Add project tags by giving tag key and tag value. 
 
-A Project is used typically to focus on one cloud Service Provider with an account to generate and make one team responsible for managing cloud billing and optimizations.
 
-- A Project is used for one Cloud Service Provider with multiple sub accounts or resource groups to see combined billing reports for different personas.
+## Project User Management
 
-- A CloudPi Project is configured for managing cloud costs and management per ‘Environment’.
+1. Go to project "Settings" and select "Users."
+2. To add a user, click "Add User," fill out their details, assign roles, and set permissions.
+3. To modify user details or permissions, click on an existing user and select "Edit."
 
-- A CloudPi Project is used for product resources in one cloud provider.
+## Project Settings
 
-- A CloudPi Project is used per customer basis.
+1. Click on "Project Settings" from the landing page to configure specific settings for each project.
+2. Here, you can adjust project-level permissions, enable/disable certain features, and manage project users, viewers.
 
-[Click here for Creating New Projects](#)  
+### Project Groups
 
-## Understanding Project Group
+1. Under "Projects," select "Project Groups."
+2. Click "Create New Group," name it, and define its attributes.
+3. Assign users and projects to the group as needed.
 
-A 'Project Group' represents a set of projects organized together to mirror a department or business unit within your organization. This feature allows you to introduce your business terminology into CloudPi cost and optimization strategies, making it more intuitive and relevant to your operations.
+## Navigating the Project Settings
+
+Project settings can be accessed by clicking on the edit icon in the list of projects table. Here's how to configure various aspects of your projects:
+
+### 1. Editing Project Information
+
+- **Project Name:** Update the name of the project for organizational clarity.
+- **Description:** Provide a detailed description of the project's purpose and resources involved.
+- **Project Group:** Assign the project to a specific group for better organization.
+- **Cloud Service Provider:** Choose the cloud service provider (e.g., AWS, Azure, GCP).
+
+
+### 2. Cloud Settings
+
+- **Account ID:** Enter one or more AWS account IDs associated with this project to fetch and manage cost and usage data specific to these accounts.
+
+- **Service Groups:** Define the types of cloud services included in the cost tracking for this project, such as Storage Instances, Networking Instances, etc.
+
+- **Region:** Specify the cloud regions that this project will operate in for effective resource and cost management.
+
+- **Data Collection Schedule:** Set the frequency at which the tool should collect data from the cloud provider, such as daily or weekly.
+
+- **Choose Your Role:** Select your role based on parameters like Cross account role, Standard account role, External account role. Validate the following information: Access key and Secret key, Cross account role ARN, and External ID.
+
+### 3. User Settings
+
+- **Assign Roles to Users:** Manage which team members have access to this project and define their permissions. This includes user and roles management.
+
+### 4. Other Settings
+
+- **Project Tags (Optional):** Add tags to the project for easier categorization and searchability within your tools. Tags may include attributes like department names, cost centers, or any other relevant identifiers.
+
+- **List of Tags:** View the list of tags with Tag ID, Key, and Value. Tags can also be edited or deleted.
+
+## Project Settings
+
+### Tag Settings
+
+Navigate to the tag settings from project settings in the main navigation menu bar. Tag settings allow users to manage permissions related to adding, removing, and managing tags within the project. Toggle switches enable users to enable or disable permissions for the following actions:
+
+- **Add Tag:** Enable this option to allow users to add new tags to resources within the project.
+- **Remove Tag:** Toggle this option to permit users to remove existing tags from resources within the project.
+- **Virtual Tag:** Enable virtual tags to assign temporary or dynamic tags to resources for specific purposes, such as cost allocation or resource grouping.
+

@@ -43,17 +43,32 @@ theme:
 #       - '<i class="fa fa-lock"></i> Security': security.md
 #       - '<i class="fa fa-wrench"></i> Workspace Settings': workspace_settings.md
 nav:
-    - '<i class="fa fa-info-circle"></i> Introduction': index.md   
-    - '<i class="fa fa-window-maximize"></i> Worksapce': workspace.md
-    - 'Understanding Project': project.md
-    - 'Understanding Project Group': projectgroup.md
-    - '<i class="fa fa-wrench"></i> Workspace Settings': WorkspaceSettings.md
+    - '<i class="fa fa-info-circle"></i> Introduction': index.md 
+    # - 'Understanding Project': project.md
+    # - 'Understanding Project Group': projectgroup.md
     - 'RBAC': rbac.md
-    - '<i class="fa fa-lock"></i> Security': security.md
-    - 'Getting Started': gettingstarted.md
-    - 'Home Page': homepage.md
-    - 'Project Settings': projectsetting.md
+    - '<i class="fa fa-lock"></i> Security': security.md  
+    - '<i class="fa fa-window-maximize"></i> Worksapce': workspace.md
+
+    - '<i class="fa fa-wrench"></i> Workspace Settings': WorkspaceSettings.md
+    - 'Landing Page': homepage.md
+  
+    # - '<img src="../images/noun-team-1260449.svg" width=25,height=10>Team Collaboration': teamcollaboration.md
+    # - 'Workspace Roles And Access': WorkspaceRoles Access.md
+    # - Navigation:'navigation.md'
+
+    # - 'Getting Started': gettingstarted.md
+    # - 'Home Page': homepage.md
+    # - 'Project Settings': projectsetting.md
     - 'Team Collaboration': teamcollaboration.md
+    - 'Dashboards' : Dashboards.md
+    - 'Multi Cloud Billing Hub' : MultiCloudBillingHub.md
+    - 'CloudPi Optimisations': CloudPiOptimisations.md
+    - 'CUDs/Discounts': CUDdiscounts.md
+    - 'Budgets' : Budgets.md
+    - 'Tag Management' : TagManagement.md
+    - 'Integrations': Integrations.md
+    - 'Automation': Automations.md
 
 # svg_file_content: |
 #   <svg width="100" height="100">
