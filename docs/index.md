@@ -49,7 +49,7 @@ CloudPi.
 - **Support**: Access professional help whenever you need it.
 ## Welcome to CloudPi
 Once you've successfully logged in, take a moment to get comfortable with the home page 
-interface. This is your landing page, your command center. It's designed to provide a highlevel overview of all the projects you can access.
+interface. This is your landing page, your command center. It's designed to provide a high level overview of all the projects you can access.
 ## Understanding Workspaces
 Use workspaces for your organization when you want to structure your teams and entities, 
 encourage team collaboration, and have organization-wide views. Each workspace ensures 

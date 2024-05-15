@@ -1,5 +1,5 @@
-# CUDs/Discounts Management in CloudPi 
-## Overview 
+## CUDs/Discounts Management in CloudPi 
+<!-- ## Overview  -->
 CloudPi's CUDs/Discounts Management feature is engineered to offer a comprehensive 
 visualization and management system for your cloud Savings Plans (SPs) and Reserved 
 Instances (RIs). This feature helps organizations efficiently monitor and manage their cloud 
@@ -13,8 +13,6 @@ Visual Representation of SP and RI Investments:
 coverage, and overall utilization, giving you a clear, at-a-glance understanding of your cloud 
 savings investments. 
  
-Detailed Analysis of SPs and RIs in Use: 
-
  - SPs Tracking: Track the savings, utilization, and coverage of your Savings Plans on a 
 monthly, quarterly, and cumulative basis. CloudPi offers interactive charts and graphs to 
 help you assess the performance of each plan over time, identifying trends and making 

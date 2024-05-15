@@ -5,9 +5,12 @@
   /* --md-primary-fg-color--dark:  #90030C; */
 }
 
-.md-main__inner {
+/* .md-main__inner {
   margin-top: 0px  ;
-}
+} */
+
+/* reduce font size */
+
 
 /* Styling for the navigation menu */
 .md-nav--primary .md-nav__list {
@@ -15,39 +18,84 @@
      /* Background color for the menu section */
     border-right: 2px solid #ddd; 
     /* Border on the right side of the menu section */
-    padding-left: -10px;
+    padding-left: 0px;
+    z-index: -1;
   }
   
   /* Styling for the menu items */
   .md-nav--primary .md-nav__list a {
     padding: 10px 20px; 
-    /* Padding for menu items */
     display: block; 
-    /* Display as block to take full width */
-    color: #474747; 
-    /* Text color */
     text-decoration: none; 
-    /* Remove default underline */
-    
   }
   
   /* Highlight effect on hover */
   .md-nav--primary .md-nav__list a:hover{
     width: 106%;
     background-color: #a6a6a6; 
-    /* Background color on hover */
-    /* color: #AC8AE7; */
     margin-left: -12px;
   }
 
+  .md-nav--primary .md-nav__list a:active,
+  .md-nav--primary .md-nav__list a:focus,
+  .md-nav--primary .md-nav__list a.selected 
+    {
+        width: 106% ;
+        background-color: #a6a6a6 ; 
+        margin-left: -12px;
+        font-weight: bold;
+    }
+
   .md-nav--primary .main-heading {
-    /* Style your main heading here */
     display: none; 
-    /* This will hide the main heading from the sidebar */
 }
 
 .md-nav--secondary .md-nav__list a:hover,
 .md-nav--secondary .md-nav__list a:active {
     font-size: calc(1em + 0.1pt);
     font-weight: bold;
+
+}
+
+.md-nav--secondary .md-nav__list ul{
+  list-style-type: disc; /* Add bullets */
+}
+
+.md-nav--secondary .md-nav__list ul ul{
+  list-style-type: disc; /* Add bullets */
+}
+
+/* to reduce boldness size */
+strong {
+  font-weight: lighter; /* Adjust the font-weight as needed */
+  color: var(--md-primary-fg-color--light); 
+}
+
+/* reduce boldness of h4 */
+h4 {
+  font-weight: 500; /* Adjust the font-weight as needed */
+  /* color: var(--md-primary-fg-color--light); */
+}
+
+/* hiding footer */
+.md-footer-meta__inner.md-grid {
+  display: none;
+}
+
+/* reduce primary menu padding */
+/* @media screen and (min-width: 76.25em) {
+  [dir=ltr] .md-nav--primary .md-nav__list {
+      padding-left: 0;
+  }
+} */
+
+@media screen and (min-width: 76.25em) {
+  [dir=ltr] .md-nav--primary .md-nav__item>.md-nav__link {
+      margin-right: 1px;
+  }
+}
+
+.md-nav--secondary .md-nav {
+  /* Adjust the margin-right value as needed to move the secondary menu items to the right */
+  margin-left: 15px;
 }

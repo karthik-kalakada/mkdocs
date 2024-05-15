@@ -1,4 +1,4 @@
-# Role-Based Access Control (RBAC): Accountability and Responsibility
+## Role-Based Access Control (RBAC): Accountability and Responsibility
 
 The meticulous organization of cloud resources into project-based groupings lays the groundwork for implementing Role-Based Access Control (RBAC), a vital component to effective cloud management. RBAC is an integral part of maintaining accountability, assigning responsibility, and ensuring proficient management, utilization, and governance of cloud resources.
 

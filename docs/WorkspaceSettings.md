@@ -1,12 +1,12 @@
 
-# Managing Workspace Roles and Access
-### Overview
+## Managing Workspace Roles and Access
+## Overview
 Effective management of workspace roles and access is critical in CloudPi to ensure that 
 team members have the appropriate permissions for their roles, enhancing security and 
 efficiency. This feature allows administrators to customize access levels for different roles 
 such as project admins, cost analysts, and finance team members.
-### Key Features for Managing Roles and Access
-#### Role Definition and Management:
+## Key Features for Managing Roles and Access
+### Role Definition and Management:
 
 - **Customizable Permissions:** Define and manage the scope of permissions for each role 
 within the workspace, controlling who can view, edit, or manage specific aspects of the 
@@ -39,7 +39,7 @@ the resources and cost management of their specific projects.
 - **Project User:** Has a more focused set of permissions suitable for managing specific 
 aspects of a project, typically without having full administrative rights.
 
-[image]()
+
 
 - **Managing Permissions:** Permissions are managed within the roles and can be adjusted to 
 include or exclude access to various features such as Dashboard, Inventory, Budgeting, 
@@ -54,9 +54,7 @@ description or adjust their permissions.
 
 
 ## Workflow Tools Integration in CloudPi
-
 ## Integration Capabilities
-
 ### ServiceNow Integration
 
 - **Unified IT Management:** Incorporate CloudPi with ServiceNow to streamline cloud resource management alongside other IT services.
@@ -69,9 +67,9 @@ description or adjust their permissions.
 
 ## Setting Up Integrations
 
-To set up ServiceNow and Jira integrations:
+ServiceNow and Jira integrations:
 
-1. Access the 'Integrations' section within CloudPi to connect and configure settings tailored to your organizational workflows.
+Access the 'Integrations' section within CloudPi to connect and configure settings tailored to your organizational workflows.
 
 ## Navigating Workflow Tools Integration
 

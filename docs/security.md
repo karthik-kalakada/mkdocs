@@ -1,4 +1,4 @@
-# Security
+<!-- # Security -->
 Security is a paramount concern when it comes to managing and optimizing your cloud 
 environments. CloudPi is designed with stringent security measures to ensure that your data 
 remains safe and your operations stay secure.

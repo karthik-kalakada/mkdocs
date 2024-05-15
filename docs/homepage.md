@@ -1,10 +1,9 @@
-# Getting Started 
+## Getting Started 
 
-- **Signing In:** 
+Signing In:
 
-    - Navigate to the CloudPi login page provided by PurpleData Inc. 
-
-    - Enter your credentials (provided by your system administrator). 
+   - Navigate to the CloudPi login page provided by PurpleData Inc. 
+   - Enter your credentials (provided by your system administrator). 
 
 
 ## Home Page/Landing Page
@@ -96,7 +95,7 @@ Add project tags by giving tag key and tag value.
 
 Project settings can be accessed by clicking on the edit icon in the list of projects table. Here's how to configure various aspects of your projects:
 
-### 1. Editing Project Information
+###  Editing Project Information
 
 - **Project Name:** Update the name of the project for organizational clarity.
 - **Description:** Provide a detailed description of the project's purpose and resources involved.
@@ -104,7 +103,7 @@ Project settings can be accessed by clicking on the edit icon in the list of pro
 - **Cloud Service Provider:** Choose the cloud service provider (e.g., AWS, Azure, GCP).
 
 
-### 2. Cloud Settings
+###  Cloud Settings
 
 - **Account ID:** Enter one or more AWS account IDs associated with this project to fetch and manage cost and usage data specific to these accounts.
 
@@ -116,11 +115,11 @@ Project settings can be accessed by clicking on the edit icon in the list of pro
 
 - **Choose Your Role:** Select your role based on parameters like Cross account role, Standard account role, External account role. Validate the following information: Access key and Secret key, Cross account role ARN, and External ID.
 
-### 3. User Settings
+###  User Settings
 
 - **Assign Roles to Users:** Manage which team members have access to this project and define their permissions. This includes user and roles management.
 
-### 4. Other Settings
+###  Other Settings
 
 - **Project Tags (Optional):** Add tags to the project for easier categorization and searchability within your tools. Tags may include attributes like department names, cost centers, or any other relevant identifiers.
 

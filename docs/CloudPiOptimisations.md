@@ -30,7 +30,7 @@ efficiency and align with their organizational objectives in cloud management.
 ## How SP Recommendations work?
 
 In PiSavings, specifically in SP Recommendations page you find the project resources current 
-usage pattern based on region and account id, cloudpi intelligently develops and presents to 
+usage pattern based on region and account id, CloudPi intelligently develops and presents to 
 you current commitment requirement, current average demand and potential estimated 
 savings. For each opportunity you will have option to generate recommendations in 
 graphical and tabular view for choosing best plan based on your situation and forecast.
