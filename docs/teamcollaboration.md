@@ -28,6 +28,10 @@ These collaboration tools in CloudPi are designed to streamline communication an
 
 You will see a list of tasks created for cost optimization activities. Each task entry includes details such as task title, status, description, and actions such as view and delete. You can also filter the table based on status. 
 
+![Task](images/task.png)
+
 ### Ticketing:  
 
 You will see a list of tickets created for cost optimization activities. Each entry includes details such as title, status, description, and actions such as view and delete. You can also filter the table based on status and submit to, where u can filter based on service now or JIRA. 
+
+![Ticket](images/ticket.png)

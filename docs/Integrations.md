@@ -60,3 +60,5 @@ CloudPi’s integration with workflow tools like ServiceNow and Jira empowers or
 to leverage their existing IT service management frameworks to enhance cloud operations, 
 ensuring tasks are handled efficiently and effectively, thus driving better cloud governance 
 and operational agility.
+
+![Adding a Role](images/integration.png)

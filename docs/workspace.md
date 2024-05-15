@@ -83,10 +83,16 @@ Select the "User Management" from workspace settings in the header.
 
 ### Viewing and Managing Users:
 "User List" displays all registered users along with details such as their name, project association, role, email ID, and status.
-    image
+
+![Viewing and Managing Users](images/Screenshot 2024-05-15 151140.png)
 
 ### Inviting New Users:
  Click on "Invite User" to open a dialog where you can enter the new user’s name, email address, role, and associated project. Fill out the necessary details and click “Save” to send an invitation to the user to join the platform.
 
+![Inviting New User](images/invite_user_in_UM.png){: width="500"}
+
+<!-- <img src="images/invite_user_in_UM.png" alt="Inviting New User" width="100"> -->
+
 ### Editing Existing Users: 
 Find the user you wish to edit in the "User List". Click the edit icon next to the user's entry to open the "Edit User" dialog. Modify details such as the username, User ID, Project, Role and Status (Enable/Disable). Click “Save” to apply the changes.
+![Edit user in UM](images/edit%20user%20in%20UM.png){: width="500"}

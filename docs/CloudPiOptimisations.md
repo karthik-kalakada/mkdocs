@@ -38,11 +38,13 @@ graphical and tabular view for choosing best plan based on your situation and fo
 The Savings Plan Recommendation provides insights and recommendations for purchasing 
 Savings Plans for optimal coverage based on Account ID selected. 
 
+![SP Recommendations](images/SP%20Recommendations.png)
+
 **Generate SP Plan**: When clicking on 'Generate', you can view Account ID, Region and 
 Current average hourly OnDemand spend which allows you to review and edit based on 
 your business forecast before generating a saving plan.
 
-Pic: Generate SP Options
+![Generate](images/SP%20Recommendations%20generate.png){: width="300"}
 
 **Graphical View and Estimated Savings**: Graphical View provide comparison visual 
 representation of your Savings Plans options. A side panel presents various saving options, 
@@ -50,27 +52,36 @@ showing the duration (1-year or 3-year) and the cost structure (On Demand, All U
 Partial Upfront, No Upfront). Choose the most suitable plan according to the estimated 
 savings and upfront payment preference.
 
- Pic: SP comparison chart
+![Details](images/SP%20Recommendations%20details.png)
 
 **Auto Ticketing**: Based on analysis you can choose your savings plan and you can 
 automatically 'Raise Ticket' and view populated fields such as title, Description, Priority, 
 Status. Finally click ‘Create Ticket’ to workflow tool you setup for your organization.
 
+![Details](images/SP%20Recommendations%20raise%20a%20ticket.png){: width="300"}
 
 ## RI Recommendations Plan:
 The RI Recommendation provides insights and recommendations for purchasing Reserved 
 Instances to optimize cloud spending based on Account ID selected.
 
+![Details](images/RI%20Recommendations.png)
+
 **Generate RI Plan**: When clicking on 'Generate', you can view Account ID, Region, Instance 
 Family and Average number of instances used per hour which allows you to review before 
 generating a RI plan.
+
+![Details](images/RI%20Recommendations%20generate.png){: width="300"}
 
 **Graphical View and Estimated Savings**: A graphical view shows your spending trends over 
 the months. The Estimated Savings section compares various plan durations and payment 
 terms (e.g., 1-year vs. 3-year, all upfront vs. partial upfront).
 
+![Details](images/RI%20Recommendations%20details.png)
+
 **Raising a Ticket**: If you have an issue, you can 'Raise Ticket' and view the fields such as title, 
 Description, Priority, Status and Submit to and click on “Create ticket” button.
+
+![Details](images/RI%20Recommendations%20raise%20a%20ticket.png){: width="300"}
 
 ## CloudPi Usage Recommendations
 

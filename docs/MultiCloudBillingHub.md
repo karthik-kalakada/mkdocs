@@ -59,7 +59,7 @@ To generate an invoice based on the displayed billing information, Click the “
 
 Switch to Graphical View by toggling the button at the top of the billing page. This view presents your expenses in a bar graph, giving you a visual representation of your spending over the year. 
 
- 
+ ![Edit invoice](images/edit%20invoice%20and%20billing%20landing%20page.png)
 
  
 
@@ -115,17 +115,17 @@ Customize the level of detail shown on invoices for each customer or cost center
 
 **Invoice History**: Here you can view all created billing views.  
 
- 
+ ![Invoice History](images/invoices.png)
 
 **Customer Details**: it shows the relevant information about the customer associated with the billing views. It includes the customer's name, project name, cost center, department name, and the date range for the invoice. 
 
- 
+ ![Customer Details](images/customer%20details.png)
 
  View Customer details: click on the view icon under actions. On choosing the customer, you can view customer details. 
 
  **Auto Invoicing**: To enable auto invoicing for a customer, click on auto invoicing icon under actions. In the pop-up window, select the customer from the dropdown menu. Enter the customer’s email ID, set a schedule for the invoicing, specify delivery details such as email id and end date and click on “Save” to enable auto invoicing. 
 
- 
+ ![Auto Invoicing](images/auto%20invoicing.png){: width="500"}
 
 **Creating Customer Details**: click on create icon under actions. A popup appears, choose the Customer and Billing view and then click on “Save” button. 
 
@@ -134,3 +134,5 @@ Customize the level of detail shown on invoices for each customer or cost center
  **Editing an Invoice**: Select an invoice from the list and click on the edit icon under the actions to modify it. In the editing view, you can modify the invoice number, PO number, date, from and to and you can view other details such as Account ID, Cloud Service Provider, Cost group, and cost. To add a new line item to the invoice, click on the “+ Add Item” button. Summary of the invoice including discounts, subtotal, and grand total is also shown. 
 
 Click on “Save” button to save the modifications. 
+
+![Invoice History](images/edit%20invoice%20and%20billing%20landing%20page.png)

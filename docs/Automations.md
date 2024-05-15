@@ -59,3 +59,5 @@ By integrating Terraform with CloudPi, organizations can harness the power of au
 to enhance their cloud resource management, reduce operational complexities, and 
 improve overall system reliability and performance. This strategic approach not only saves 
 time and resources but also ensures a more agile and responsive cloud environment.
+
+![Adding a Role](images/automation.png)

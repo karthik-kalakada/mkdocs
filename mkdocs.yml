@@ -66,6 +66,7 @@ nav:
 
 
 extra:
+  favicon: images/Clip path group.svg
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/

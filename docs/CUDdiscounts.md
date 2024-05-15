@@ -72,6 +72,8 @@ analysis of savings trends, plan utilization, and coverage over time. Graphical
 representations provide a visual overview of savings and utilization metrics for Savings 
 Plans
 
+![Details](images/discounts%20sp%20plan.png)
+
 ## Navigating RI Plans 
 
 **Overview**: An overview of Reserved Instances (RI) plan is displayed, including details such as 
@@ -86,3 +88,5 @@ view details, alert on expiry and raise a request.
 analysis of savings trends, plan utilization, and coverage over time. Graphical 
 representations provide a visual overview of savings and utilization metrics for Reserved 
 Instances.
+
+![Details](images/Discounts%20RI%20plan.png)

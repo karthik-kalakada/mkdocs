@@ -61,3 +61,5 @@ Use the sharing options provided within each report to share via email, download
 ### Viewing Reports from Others
 
 Access a section of the dashboard dedicated to viewing reports shared by others. This fosters an environment of transparency and collaborative review. 
+
+![Viewing Reports](images/dashboard.png)

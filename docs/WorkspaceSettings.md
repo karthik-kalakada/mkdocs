@@ -40,6 +40,9 @@ the resources and cost management of their specific projects.
 aspects of a project, typically without having full administrative rights.
 
 
+![Roles and Permissions](images/roles%20and%20permissions.png)
+
+
 
 - **Managing Permissions:** Permissions are managed within the roles and can be adjusted to 
 include or exclude access to various features such as Dashboard, Inventory, Budgeting, 
@@ -48,10 +51,14 @@ Permissions are usually toggled on and off for each feature associated with a ro
 granular control, some platforms allow setting permissions for sub-features under main 
 categories like Landing, Workflow, Recommendations, Billing.
 - **Adding a Role:** Click on "Add Role" button, where you can define the role name, select 
-permissions, and provide a description. [image]
+permissions, and provide a description. 
+
+ ![Adding a Role](images/add%20new%20role%20in%20R&P.png){: width="500"}
+
 - **Viewing and Editing a Role:** Existing roles can be viewed and edited to modify their 
 description or adjust their permissions.
 
+![Editing a Role](images/edit%20role%20in%20R&P.png){: width="500"}
 
 ## Workflow Tools Integration in CloudPi
 ## Integration Capabilities
@@ -99,7 +106,7 @@ To manage ServiceNow integration:
 
 2. **Service Management:** Similar to JIRA, ensure that the correct settings are configured to allow the creation of service tickets directly linked to your cost management findings.
 
-
+![Service Management](images/integ.png)
 
 ## Workspace Alerts in CloudPi
 
@@ -139,7 +146,7 @@ Configure Alerts: Use the 'Alerts Management' section to set up and customize al
 
 You can set how you wish to be notified for each type of alert by clicking on toggle button to enable among three alert configuration types such as Email alert, Ticketing alert and Notifications.
 
-
+![Cost Anomaly](images/global%20alert%20subscription%20(1).png)
 
 ## Managing Customer Billing Information in CloudPi
 
@@ -172,3 +179,5 @@ These refined features in CloudPi are designed to streamline workspace managemen
 - View details about your current subscription, including the plan type, start and end date, subscription ID, company name, and billing address. This section helps you keep track of your subscription status and ensure that all company and billing information is up-to-date.
 
 By effectively utilizing the Billing Information features, you can ensure that your cloud cost optimization efforts are well supported by an appropriate and up-to-date subscription plan.
+
+![subscription](images/global%20alert%20subscription%20(2).png)
