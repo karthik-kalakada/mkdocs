@@ -1,0 +1,62 @@
+<style>
+  .custom-header {
+    display: flex;
+    align-items: center;
+    background-color: #000000; /* Adjust as needed */
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    flex: 1;
+  }
+  
+  .logo-image {
+    height: 40px; /* Adjust as needed */
+  }
+  
+  .custom-nav {
+    flex: 3;
+    text-align: right;
+  }
+  
+  .custom-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .custom-nav li {
+    margin-left: 20px;
+  }
+  
+  .custom-nav a {
+    color: white;
+    text-decoration: none; 
+    font-weight: bold;
+  }
+  
+  .custom-nav a:hover {
+    text-decoration: underline;
+  }
+  
+</style>
+
+<div class="custom-header">
+    <div class="logo">
+      <img src="{{ base_url }}/images/logo.jpeg" alt="Logo" class="logo-image">
+    </div>
+    <nav class="custom-nav">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/Features">Features</a></li>
+        <li><a href="/Company">Company</a></li>
+        <li><a href="/tp">Technology Partners</a></li>
+        <li><a href="/solutions">Solutions</a></li>
+        <li><a href="/subs">Subscriptions</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/user-guide">User Guide</a></li>
+      </ul>
+    </nav>
+  </div>

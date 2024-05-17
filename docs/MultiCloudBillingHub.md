@@ -1,5 +1,5 @@
 
-Welcome to your central billing command center! The CloudPi Multi-Cloud Billing Hub offers a comprehensive solution for managing and analyzing billing data across various Cloud Service Providers (CSPs). This hub allows you to create tailored 'BillingViews' to monitor expenditures based on different dimensions like services, service groups, and user-defined cost tags. 
+Welcome to your central billing command center! The CloudPi Multi-Cloud Billing Hub offers a comprehensive solution for managing and analyzing billing data across various Cloud Service Providers (CSPs). This hub allows you to create tailored 'BillingViews' to monitor expenditures based on different dimensions like services, service groups, and user-defined cost tags.  
 
 ## Key Features 
 
@@ -25,11 +25,13 @@ This user-friendly hub simplifies your multi-cloud billing management by central
 
 ## Navigating Billing Views Page: 
 
-The billing dashboard provides a comprehensive view of your billing details, including service costs, groupings, and graphical representations of spending. You can toggle between Table View and Graphical View to better understand your billing data. 
+The billing dashboard provides a comprehensive view of your billing details, including billing view, Account ID, Granularity, project, group by and date range. You can select from dropdowns and apply changes, and save the billing view by entering a name. You can toggle between Table View and Graphical View to better understand your billing data. 
 
- 
+  ![Billing Views](images/billing%20landing%20page%20and%20edit%20invoices.png)
 
-### Choose Billing View: 
+   ![save Billing Views](images/save%20billing%20view.png){: width="500"}
+
+<!-- ### Choose Billing View: 
  Create a billing view or choose billing view from the dropdown. 
 
 Create a billing view: you can choose the filters and view the table with the details according to the filters selected. Click on “save the billing view” button, a pop-up will appear, enter a name for your billing view and click on “Save” button. 
@@ -61,7 +63,7 @@ Switch to Graphical View by toggling the button at the top of the billing page. 
 
  ![Edit invoice](images/edit%20invoice%20and%20billing%20landing%20page.png)
 
- 
+  -->
 
  
 
@@ -107,32 +109,36 @@ Customize the level of detail shown on invoices for each customer or cost center
 
 ## Navigating Invoicing Page: 
 
-- Access and Setup: Navigate to the invoicing page from the billing page in left navigation menu. Here, you can configure or modify billing views and set up automation for recurring billing cycles. 
+- Access and Setup: Navigate to the invoicing page from the billing page in left navigation menu. Here, you can configure or modify billing views and set up automation for recurring billing cycles.  
 
-- Generate Invoices: Select the appropriate billing view and input any required details to generate an invoice. You can preview the invoice before finalization to ensure all details are correct. 
+- Generate Invoices: Select the appropriate billing view and input any required details to generate an invoice. You can preview the invoice before finalization to ensure all details are correct.  
 
-- Manage and Review: Use the invoicing history section to monitor previously issued invoices, making use of filters to sort and access specific invoices quickly. This section also allows for the reissuing, editing, or cancellation of invoices if necessary.  
+- Manage and Review: Use the invoicing history section to monitor previously issued invoices, making use of filters to sort and access specific invoices quickly. This section also allows for the reissuing, editing, or cancellation of invoices if necessary.   
 
 **Invoice History**: Here you can view all created billing views.  
 
  ![Invoice History](images/invoices.png)
 
-**Customer Details**: it shows the relevant information about the customer associated with the billing views. It includes the customer's name, project name, cost center, department name, and the date range for the invoice. 
+<!-- **Customer Details**: it shows the relevant information about the customer associated with the billing views. It includes the customer's name, project name, cost center, department name, and the date range for the invoice. 
 
- ![Customer Details](images/customer%20details.png)
+ ![Customer Details](images/customer%20details.png) -->
 
- View Customer details: click on the view icon under actions. On choosing the customer, you can view customer details. 
+ **View Invoices**: view invoices that have been generated under each billing view. You can resend, edit and download invoices.
 
  **Auto Invoicing**: To enable auto invoicing for a customer, click on auto invoicing icon under actions. In the pop-up window, select the customer from the dropdown menu. Enter the customer’s email ID, set a schedule for the invoicing, specify delivery details such as email id and end date and click on “Save” to enable auto invoicing. 
 
  ![Auto Invoicing](images/auto%20invoicing.png){: width="500"}
 
-**Creating Customer Details**: click on create icon under actions. A popup appears, choose the Customer and Billing view and then click on “Save” button. 
+<!-- **Creating Customer Details**: click on create icon under actions. A popup appears, choose the Customer and Billing view and then click on “Save” button.  -->
+**Add Customer**: click on add icon under actions. A popup appears, choose the Customer or create customer details and then click on “Save” button.
 
- 
+ ![Add costomer](images/choose%20customer12.png){: width="500"}
 
- **Editing an Invoice**: Select an invoice from the list and click on the edit icon under the actions to modify it. In the editing view, you can modify the invoice number, PO number, date, from and to and you can view other details such as Account ID, Cloud Service Provider, Cost group, and cost. To add a new line item to the invoice, click on the “+ Add Item” button. Summary of the invoice including discounts, subtotal, and grand total is also shown. 
+On clicking create customer details, you will be navigated to the customer details page to enter details such as first name, last name, email, phone number, address, city, state, cost center, project name and department name, then click on “Save” button. 
 
-Click on “Save” button to save the modifications. 
+![sAve](images/customer%20details123.png)
 
-![Invoice History](images/edit%20invoice%20and%20billing%20landing%20page.png)
+ **Editing billing view**: click on the edit icon under the actions to modify billing view . You will be navigated to billing management, where you can edit billing details, including billing view, Account ID, Granularity, project, group by and date range. You can select from dropdowns and apply changes, and save the billing view by entering a name.
+
+
+![Invoice History](images/billing%20landing%20page%20and%20edit%20invoices.png)

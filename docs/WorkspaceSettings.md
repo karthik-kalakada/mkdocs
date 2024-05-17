@@ -50,6 +50,9 @@ Custom Dashboard, Tag Management, Workflow, Recommendations, and Billing.
 Permissions are usually toggled on and off for each feature associated with a role. For more 
 granular control, some platforms allow setting permissions for sub-features under main 
 categories like Landing, Workflow, Recommendations, Billing.
+
+![permissions](images/managing%20roles%20in%20roles%20and%20permissions.png){: width="500"}
+
 - **Adding a Role:** Click on "Add Role" button, where you can define the role name, select 
 permissions, and provide a description. 
 
@@ -92,19 +95,18 @@ Workflow tools integration allows you to seamlessly connect with third-party too
 
 To manage JIRA integration:
 
-1. **Enabling JIRA Integration:** Toggle the switch to "Enable" to activate JIRA integration.
+- **Enabling JIRA Integration:** Toggle the switch to "Enable" to activate JIRA integration.
 
-2. **JIRA Server URL:** Input the server URL of your JIRA instance to link the cost optimization platform with your JIRA account.
+- **JIRA Server URL:** Input the server URL of your JIRA instance to link the cost optimization platform with your JIRA account.
 
-3. **Default Settings for Issues:** Optional fields such as 'pid' (project id) and 'issuetype' can be set, which dictate the defaults for new issues created from the platform.
+- **Default Settings for Issues:** Optional fields such as 'pid' (project id) and 'issuetype' can be set, which dictate the defaults for new issues created from the platform.
 
 ## Managing ServiceNow Integration
 
-To manage ServiceNow integration:
 
-1. **Enabling ServiceNow Integration:** Toggle the switch to "Enable" to activate integration with ServiceNow.
+- **Enabling ServiceNow Integration:** Toggle the switch to "Enable" to activate integration with ServiceNow.
 
-2. **Service Management:** Similar to JIRA, ensure that the correct settings are configured to allow the creation of service tickets directly linked to your cost management findings.
+- **Service Management:** Similar to JIRA, ensure that the correct settings are configured to allow the creation of service tickets directly linked to your cost management findings.
 
 ![Service Management](images/integ.png)
 
@@ -126,7 +128,7 @@ To manage ServiceNow integration:
 
 ## Managing Alerts
 
-Configure Alerts: Use the 'Alerts Management' section to set up and customize alert parameters and notification methods.
+**Configure Alerts**: Use the 'Alerts Management' section to set up and customize alert parameters and notification methods.
 
 ## Types of Alerts Available
 

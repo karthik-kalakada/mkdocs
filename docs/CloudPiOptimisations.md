@@ -161,3 +161,5 @@ recommendations from various cloud platforms but also enhances them with vital
 information and tools needed for effective implementation. This capability allows 
 organizations to maximize their cloud efficiency, reduce costs, and leverage the full 
 potential of their cloud investments.
+
+![Cloud native](images/cloudlast.png)

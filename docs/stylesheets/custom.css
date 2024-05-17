@@ -14,12 +14,12 @@
 
 /* Styling for the navigation menu */
 .md-nav--primary .md-nav__list {
-    background-color: #d1d1d1;
+    background-color: #363636;
      /* Background color for the menu section */
     border-right: 2px solid #ddd; 
     /* Border on the right side of the menu section */
     padding-left: 0px;
-    z-index: -1;
+    z-index: -10;
   }
   
   /* Styling for the menu items */
@@ -32,7 +32,7 @@
   /* Highlight effect on hover */
   .md-nav--primary .md-nav__list a:hover{
     width: 106%;
-    background-color: #a6a6a6; 
+    background-color: #6f6f6f; 
     margin-left: -12px;
   }
 
@@ -106,4 +106,54 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* reduce icon size in main page */
+.md-content i {
+  font-size: 0.75em; /* Adjust the size as needed */
+}
+
+
+
+/* header */
+.custom-header {
+  display: flex;
+  align-items: center;
+  background-color: #6F44A6; /* Adjust as needed */
+  padding: 10px 20px;
+}
+
+.logo {
+  flex: 1;
+}
+
+.logo-image {
+  height: 40px; /* Adjust as needed */
+}
+
+.custom-nav {
+  flex: 3;
+  text-align: right;
+}
+
+.custom-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.custom-nav li {
+  margin-left: 20px;
+}
+
+.custom-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.custom-nav a:hover {
+  text-decoration: underline;
 }
