@@ -15,9 +15,7 @@
 /* Styling for the navigation menu */
 .md-nav--primary .md-nav__list {
     background-color: #363636;
-     /* Background color for the menu section */
-    border-right: 2px solid #ddd; 
-    /* Border on the right side of the menu section */
+
     padding-left: 0px;
     z-index: -10;
   }

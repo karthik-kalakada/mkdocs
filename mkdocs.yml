@@ -37,11 +37,11 @@ theme:
   language: en
   palette:
         scheme: slate
-        # primary: Dark moderate violet
-        primary: black
-        accent: deep purple
+        primary: Dark moderate violet
+        # primary: black
+        accent: deep purple  
         # accent: custom
-
+ 
 
 nav:
     - '<i class="fa fa-info-circle"></i> Introduction': index.md 
