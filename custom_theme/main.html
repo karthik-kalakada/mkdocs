@@ -4,11 +4,15 @@
   {% include "partials/header.html" %}
 {% endblock %}
 
+
 {% block content %}
-  {{ super() }}
+  <div class="content">
+    {{ super() }}
+  </div>
 {% endblock %}
 
 
-
-
+{% block footer %}
+  {% include "partials/footer.html" %}
+{% endblock %}
 

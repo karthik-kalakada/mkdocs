@@ -40,3 +40,13 @@
     text-decoration: underline;
   }
   
+
+  :root {
+    /* --md-primary-fg-color:        #EE0F0F; */
+    --md-primary-fg-color:        #6F44A6;
+    --md-primary-fg-color--light: #AC8AE7;
+    /* --md-primary-fg-color--dark:  #90030C; */
+  }
+
+
+  /* push the content on top of the footer */

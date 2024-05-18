@@ -1,36 +1,36 @@
-site_name: CloudPi User Guide v.020
+site_name: CloudPi User Guide v02
 site_url: https://docs.purpledatainc.com
 theme:
   # custom_dir: overrides
   name: material
-  logo: images/logo.jpeg
+  logo: images/logo.jpeg    
   font:
     text: Poppins
-    text: 14px
-  # custom_dir: custom_theme  
-
+    text: 14px  
+  custom_dir: custom_theme    
+  
   features:
-    # - toc.integrate
+    # - toc.integrate 
     # - announce.dismiss
-    # - navigation.tabs
+    # - navigation.tabs 
     - navigation.sections 
     - navigation.sidebar.main
     - navigation.sidebar.collapse
     - navigation.top   
-    - navigation.sections
+    - navigation.sections 
     - navigation.instant
-    - icons
-    - icon_links
-    - search.suggest
+    - icons    
+    - icon_links 
+    - search.suggest 
     - search.highlight
-    - content.tabs.link
-    - content.code.annotation
+    - content.tabs.link    
+    - content.code.annotation     
     - content.code.copy 
     - toc.follow
     # - navigation.footer
-    - content.tabs.link
-    - navigation.path
-    # - header.autohide
+    - content.tabs.link 
+    - navigation.path   
+    # - header.autohide 
 
   
 
@@ -38,10 +38,9 @@ theme:
   palette:
         scheme: slate
         primary: Dark moderate violet
-        # primary: black
-        accent: deep purple  
-        # accent: custom
- 
+        accent: deep purple 
+        
+
 
 nav:
     - '<i class="fa fa-info-circle"></i> Introduction': index.md 
@@ -71,7 +70,7 @@ extra:
       link: https://github.com/
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/
-    - icon: fontawesome/brands/linkedin  
+    - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/
 
 extra_css:

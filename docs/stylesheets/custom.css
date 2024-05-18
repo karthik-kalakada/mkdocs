@@ -15,14 +15,48 @@
 /* Styling for the navigation menu */
 .md-nav--primary .md-nav__list {
     background-color: #363636;
-
+     /* Background color for the menu section */
+    /* border-right: 2px solid #ddd;  */
+    /* Border on the right side of the menu section */
     padding-left: 0px;
-    z-index: -10;
+    z-index: -1;
+
+
+    /* position: -webkit-sticky; */
+    /* position: sticky; */
+    top: 0;
+    max-height: calc(100vh - 85px); /* Adjust the value '64px' to match your footer height */
+    /* overflow-y:unset; */
   }
+
+  .md-nav--secondary .md-nav__list{
+    top: 0;
+    max-height: calc(100vh - 85px); 
+  }
+
+  /* .md-sidebar__scrollwrap{
+    background-color: #363636;
+  } */
+  /* .md-sidebar--secondary {
+    background-color: red;
+  } */
+  /* .md-nav .md-nav--primary{
+    background-color: #363636;
+    min-height: 200vh;
+  } */
   
+  .md-nav--primary .md-nav__item{
+    background-color: #363636;
+
+  }
+  .md-nav--primary .md-nav__link{
+
+    margin: 0;
+  }
+
   /* Styling for the menu items */
   .md-nav--primary .md-nav__list a {
-    padding: 10px 20px; 
+    padding: 15px 20px; 
     display: block; 
     text-decoration: none; 
   }
@@ -31,6 +65,7 @@
   .md-nav--primary .md-nav__list a:hover{
     width: 106%;
     background-color: #6f6f6f; 
+    color: #51308B;
     margin-left: -12px;
   }
 
@@ -40,6 +75,7 @@
     {
         width: 106% ;
         background-color: #a6a6a6 ; 
+        color: #8C5ECA;
         margin-left: -12px;
         font-weight: bold;
     }
@@ -111,47 +147,14 @@ img {
   font-size: 0.75em; /* Adjust the size as needed */
 }
 
-
-
-/* header */
-.custom-header {
-  display: flex;
-  align-items: center;
-  background-color: #6F44A6; /* Adjust as needed */
-  padding: 10px 20px;
+@media screen and (min-width: 76.25em) {
+  [dir=ltr] .md-nav--primary .md-nav__list {
+      padding-left: .1rem;
+  }
 }
 
-.logo {
-  flex: 1;
-}
-
-.logo-image {
-  height: 40px; /* Adjust as needed */
-}
-
-.custom-nav {
-  flex: 3;
-  text-align: right;
-}
-
-.custom-nav ul {
-  list-style: none;
+.md-sidebar__scrollwrap{
   margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: flex-end;
+  scrollbar-color: #6F44A6;
 }
 
-.custom-nav li {
-  margin-left: 20px;
-}
-
-.custom-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.custom-nav a:hover {
-  text-decoration: underline;
-}
