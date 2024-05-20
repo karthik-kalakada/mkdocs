@@ -51,12 +51,97 @@
     border-radius: 20px; /* Rounded edges */
     text-decoration: none;
   }
+
+
+
+   /* hamburger menu */
+ .menu-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+/* Slide menu */
+.slide-menu {
+  position: fixed;
+  top: 0;
+  left: -250px; /* Initially hide the menu */
+  width: 250px;
+  height: 100%;
+  background-color: #111;
+  padding-top: 60px;
+  z-index: 1000;
+  overflow-x: hidden;
+  transition: left 0.3s; /* Add transition for smooth sliding */
+  font-size: 14px;
+}
+
+.menu-heading {
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.slide-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.slide-menu ul li {
+  padding: 10px 20px;
+  text-align: left;
+}
+
+.slide-menu ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.slide-menu ul li:hover {
+  background-color: #ffffff;
+  color: #AC8AE7;
+}
+
+/* .slide-menu ul li a:hover,
+.slide-menu ul li a.selected {
+  color: #AC8AE7; 
+} */
+
+.slide-menu ul li:hover,
+.slide-menu ul li.selected {
+  color: #AC8AE7; /* Change text color on hover and selection */
+}
+
+.slide-menu ul li a {
+  color: inherit; /* Inherit color from the list item */
+  text-decoration: none;
+  display: block;
+}
+
+/* Media query for slide menu on smaller screens */
+@media (max-width: 1200px) {
+  .menu-toggle {
+    display: block;
+  }
+}
+
+/* Adjust content area when slide menu is open */
+.slide-menu.open {
+  left: 0;
+}
+
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
+
 <div class="custom-header">
+  <div class="menu-toggle" id="menu-toggle">☰</div>
+  <!-- <ul id="menu">
+    {% for item in nav %}
+    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% endfor %}
+  </ul> -->
     <div class="logo">
       <img src="{{ base_url }}/images/logo.jpeg" alt="Logo" class="logo-image">
     </div>
@@ -74,3 +159,45 @@
       </ul>
     </nav>
   </div>
+  <div id="slide-menu" class="slide-menu">
+    <h2 class="menu-heading">Table of Contents</h2>
+    <ul>
+      {% for item in nav %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+
+
+  <script>
+document.addEventListener("DOMContentLoaded", function() {
+  var menuToggle = document.getElementById("menu-toggle");
+  var slideMenu = document.getElementById("slide-menu");
+
+  menuToggle.addEventListener("click", function(e) {
+    e.stopPropagation(); // Prevent the click event from bubbling up
+    slideMenu.classList.toggle("open");
+  });
+
+  // Close the slide menu when clicking outside of it
+  document.addEventListener("click", function(e) {
+    var target = e.target;
+    var isMenuOpen = slideMenu.classList.contains("open");
+    var isClickInsideMenu = slideMenu.contains(target);
+    var isClickInsideMenuToggle = menuToggle.contains(target);
+
+    if (isMenuOpen && !isClickInsideMenu && !isClickInsideMenuToggle) {
+      slideMenu.classList.remove("open");
+    }
+  });
+
+  // Close the slide menu when an item is selected
+  slideMenu.querySelectorAll("a").forEach(function(item) {
+    item.addEventListener("click", function() {
+      slideMenu.classList.remove("open");
+    });
+  });
+});
+
+
+  </script>

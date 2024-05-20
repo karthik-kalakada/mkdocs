@@ -33,21 +33,22 @@ theme:
     # - header.autohide 
 
   
-
+  
   language: en
   palette:
         scheme: slate
         primary: Dark moderate violet
         accent: deep purple 
-        
-
+         
+extra_javascript:
+  - js/custom.js
 
 nav:
     - '<i class="fa fa-info-circle"></i> Introduction': index.md 
     - '<i class="fa fa-universal-access"></i> RBAC': rbac.md
     - '<i class="fa fa-lock" aria-hidden="true"></i> Security': security.md  
-    - '<i class="fa fa-window-maximize"></i> Workspace': workspace.md
-    - '<i class="fa fa-wrench"></i> Workspace Settings': WorkspaceSettings.md
+    # - '<i class="fa fa-window-maximize"></i> Workspace Settings': workspace.md
+    - '<i class="fa fa-wrench"></i> Workspace Settings': workspace.md
     - '<i class="fa fa-home" aria-hidden="true"></i> Landing Page': homepage.md
     - '<i class="fa fa-users" aria-hidden="true"></i> Team Collaboration': teamcollaboration.md
     - '<i class="fa fa-th-large" aria-hidden="true"></i> Dashboards' : Dashboards.md  
@@ -60,7 +61,6 @@ nav:
     - '<i class="fa fa-tag" aria-hidden="true"></i> Tag Management' : TagManagement.md
     - '<i class="fa fa-cogs" aria-hidden="true"></i> Integrations': Integrations.md
     - '<i class="fa fa-magic" aria-hidden="true"></i> Automation': Automations.md
-
 
 
 extra:
@@ -82,8 +82,7 @@ extra_css:
   # - https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined
   # - bootstrap.min.css
 
-extra_javascript:
-  - scripts.js
+
 
 markdown_extensions:
   # - toc:
@@ -96,7 +95,7 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
   - footnotes
-  - pymdownx.details
+  - pymdownx.details       
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list

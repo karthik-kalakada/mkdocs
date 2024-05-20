@@ -23,7 +23,7 @@ Upon accessing the Multi-Cloud Billing Hub, you'll find the following options:
 
 This user-friendly hub simplifies your multi-cloud billing management by centralizing and streamlining processes, making it easier to monitor and optimize your cloud investments. 
 
-## Navigating Billing Views Page: 
+## Navigating Billing Views Page
 
 The billing dashboard provides a comprehensive view of your billing details, including billing view, Account ID, Granularity, project, group by and date range. You can select from dropdowns and apply changes, and save the billing view by entering a name. You can toggle between Table View and Graphical View to better understand your billing data. 
 
@@ -107,7 +107,7 @@ Customize the level of detail shown on invoices for each customer or cost center
 
  
 
-## Navigating Invoicing Page: 
+## Navigating Invoicing Page
 
 - Access and Setup: Navigate to the invoicing page from the billing page in left navigation menu. Here, you can configure or modify billing views and set up automation for recurring billing cycles.  
 

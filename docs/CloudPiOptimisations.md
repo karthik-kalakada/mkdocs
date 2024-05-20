@@ -12,7 +12,7 @@ spending through deep analytical insights into users' current cloud usage and ex
 savings plans. This feature enables users to compare various savings plan options based on 
 their unique usage patterns and financial goals, helping them identify the most cost effective strategies.
 
-### Key capabilities of PiSavings:
+### Key capabilities of PiSavings
 Detailed Analysis: Users can view and assess their cloud usage pattern suitable for SP and 
 RI’s in easy to understand way.
 
@@ -60,7 +60,7 @@ Status. Finally click ‘Create Ticket’ to workflow tool you setup for your or
 
 ![Details](images/SP%20Recommendations%20raise%20a%20ticket.png){: width="300"}
 
-## RI Recommendations Plan:
+## RI Recommendations Plan
 The RI Recommendation provides insights and recommendations for purchasing Reserved 
 Instances to optimize cloud spending based on Account ID selected.
 

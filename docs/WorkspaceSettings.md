@@ -6,7 +6,7 @@ team members have the appropriate permissions for their roles, enhancing securit
 efficiency. This feature allows administrators to customize access levels for different roles 
 such as project admins, cost analysts, and finance team members.
 ## Key Features for Managing Roles and Access
-### Role Definition and Management:
+### Role Definition and Management
 
 - **Customizable Permissions:** Define and manage the scope of permissions for each role 
 within the workspace, controlling who can view, edit, or manage specific aspects of the 
@@ -166,7 +166,7 @@ These refined features in CloudPi are designed to streamline workspace managemen
 
 ## Navigating the Billing Information
 
-### Key Activities in the Subscription Portal:
+### Key Activities in the Subscription Portal
 
 - **Download Invoices:** Access and download your billing invoices for record-keeping or expense management.
 
@@ -176,7 +176,7 @@ These refined features in CloudPi are designed to streamline workspace managemen
 
 - **Manage Payment Details:** Update billing information such as credit card details, billing address, or payment methods to ensure uninterrupted service.
 
-### Active Subscription Details:
+### Active Subscription Details
 
 - View details about your current subscription, including the plan type, start and end date, subscription ID, company name, and billing address. This section helps you keep track of your subscription status and ensure that all company and billing information is up-to-date.
 

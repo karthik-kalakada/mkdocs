@@ -15,13 +15,13 @@ platforms.
 ensures that each team member knows their responsibilities and that tickets are addressed 
 in a timely manner, enhancing the responsiveness of IT teams to operational needs. 
  
-### Setup and Configuration: 
+### Setup and Configuration
 - Accessible via Workspace Settings: Administrators can easily set up and configure the 
 integration with ServiceNow and Jira directly from the CloudPi workspace settings. This 
 centralized access simplifies the setup process and allows for quick adjustments as 
 organizational workflows evolve. 
  
-### Responsibility and Accountability: 
+### Responsibility and Accountability
 - Clear Task Assignment: By raising tickets for specific tasks or issues within ServiceNow or 
 Jira, team members receive clear assignments, which helps delineate responsibilities and 
 ensures accountability. 

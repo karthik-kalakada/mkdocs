@@ -1,14 +1,89 @@
 {% extends "base.html" %}
 
+<!-- <script src="{{ base_url }}/js/custom.js"></script> -->
+<!-- <script>
+    console.log("checking inside main")
+document.addEventListener("DOMContentLoaded", function() {
+    var menuToggle = document.getElementById("menu-toggle");
+    var menu = document.getElementById("menu");
+  
+    menuToggle.addEventListener("click", function() {
+      if (menu.style.display === "block") {
+        menu.style.display = "none";
+      } else {
+        menu.style.display = "block";
+      }
+    });
+
+     // Close the menu when a menu item is clicked
+     var menuItems = document.querySelectorAll("#menu a");
+    menuItems.forEach(function(item) {
+        item.addEventListener("click", function() {
+            menu.style.display = "none";
+        });
+    });
+  });
+console.log("after js code  insider main")
+</script>
+
+<style>
+/* Menu toggle button */
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+/* Menu hidden by default */
+#menu {
+    display: none;
+}
+
+/* Media query to show menu and toggle button on smaller screens */
+@media (max-width: 1200px) {
+    .menu-toggle {
+        display: block;
+    }
+    #menu {
+        display: none;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 250px;
+        height: 100%;
+        background-color: #111;
+        padding-top: 60px;
+        z-index: 1000;
+        overflow-x: hidden;
+    }
+    #menu ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    #menu ul li {
+        padding: 8px 16px;
+        text-align: left;
+    }
+    #menu ul li a {
+        color: white;
+        text-decoration: none;
+        display: block;
+    }
+    #menu ul li a:hover {
+        background-color: #575757;
+    }
+}
+</style> -->
+
 {% block header %}
   {% include "partials/header.html" %}
 {% endblock %}
 
 
 {% block content %}
-  <div class="content">
-    {{ super() }}
-  </div>
+<div>
+  {{ super() }}
+</div>
 {% endblock %}
 
 

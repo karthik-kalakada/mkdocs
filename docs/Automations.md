@@ -6,7 +6,7 @@ Terraform within CloudPi, users can implement Infrastructure as Code (IaC) pract
 streamline the provisioning and management of their cloud environments.
 
 ## Key Features
-### Terraform Integration:
+### Terraform Integration
 
 - Comprehensive Automation: Utilize Terraform to automate the provisioning, modification, 
 and management of cloud resources. This integration supports a wide range of cloud services 
@@ -16,7 +16,7 @@ and ensures that resource changes are executed in a controlled and predictable m
 These scripts enable users to automate common tasks such as starting, stopping, and scaling 
 resources based on predefined conditions or schedules.
 
-### Setup and Configuration:
+### Setup and Configuration
 - Accessible via Workspace Settings: Setting up the Terraform integration is straightforward 
 through CloudPi’s workspace settings. This central configuration point simplifies the process 
 of connecting CloudPi with Terraform and managing automation scripts.

@@ -4,7 +4,7 @@ project and service group levels, with customizable alerts, and robust reporting
 to ensure financial efficiency and accountability
 
 ## Key Features 
-### Project and Service Group Budgets:
+### Project and Service Group Budgets
 Customization: Set specific budgets for individual projects and service groups able to 
 allocate funds monthly, quarterly, or yearly. This allows for precise financial management 
 aligned with project timelines and business cycles.
@@ -21,14 +21,14 @@ Immediate Notifications: Receive timely alerts via email to take necessary actio
 budget plans. This ensures that stakeholders are always informed and can respond quickly 
 to financial developments.
 
-### Email Notification Setup:
+### Email Notification Setup
 Automated Delivery: Automate the dispatch of budget alerts and updates to designated 
 email recipients, ensuring continuous communication and oversight.
 
 Customizable Recipient Lists: Manage who receives budget notifications, making it easy to 
 keep relevant team members and decision-makers in the loop.
 
-### Visual Budget Tracking:
+### Visual Budget Tracking
 Dashboard Insights: Utilize interactive dashboards to visually track and analyze budget 
 utilization. These visual tools provide a clear and immediate understanding of financial 
 performance against set budgets.
@@ -36,7 +36,7 @@ performance against set budgets.
 Detailed Analysis: Explore in-depth details on budget spending through various filters and 
 dimensions such as time periods, projects, service groups, and more, enhancing decision making capabilities.
 
-### Share and Distribute:
+### Share and Distribute
 Sharing and Distribution: Share budget reports directly from CloudPi with stakeholders and 
 team members to ensure everyone is aligned and informed.
 Download Options: Download budget reports in various formats for offline review, 

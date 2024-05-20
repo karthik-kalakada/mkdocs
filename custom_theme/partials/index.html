@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Side Navigation Bar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: "Arial", sans-serif;
+        }
+        .sidenav {
+            height: 100%;
+            width: 250px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+        .sidenav a {
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #818181;
+            display: block;
+        }
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+
+<div class="sidenav" id="sideNav">
+    <!-- Navigation items will be inserted here by JavaScript -->
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.0.0/js-yaml.min.js"></script>
+<script>
+    // Fetch and parse the YAML file
+    fetch('../docms/mkdocs.yml')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok ' + response.statusText);
+            }
+            return response.text();
+        })
+        .then(yamlText => {
+            const data = jsyaml.load(yamlText);
+            const navItems = data.nav;
+            const sideNav = document.getElementById('sideNav');
+
+            navItems.forEach(item => {
+                const [text, link] = Object.entries(item)[0];
+                const aTag = document.createElement('a');
+                aTag.href = link;
+                aTag.innerHTML = text;
+                sideNav.appendChild(aTag);
+            });
+        })
+        .catch(error => console.error('Error loading or parsing YAML file:', error));
+</script>
+
+</body>
+</html>

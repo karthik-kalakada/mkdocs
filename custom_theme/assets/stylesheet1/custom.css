@@ -49,4 +49,21 @@
   }
 
 
-  /* push the content on top of the footer */
+ /* hamburger menu */
+ .menu-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+  }
+  nav ul li {
+    margin: 10px 0;
+  }
+  .menu-toggle {
+    display: block;
+  }
+}
