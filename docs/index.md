@@ -1,4 +1,5 @@
 
+![User Guide](images/image 10 (1).png){: width="500"}
 Greetings and welcome to the world of CloudPi! Brought to you by PurpleData Inc., CloudPi 
 is an all-encompassing multi-cloud cost management tool. This guide is specifically curated 
 to aid Cloud Architects, FinOps Analysts, and Cloud Managers.
