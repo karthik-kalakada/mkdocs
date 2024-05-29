@@ -4,7 +4,7 @@ project and service group levels, with customizable alerts, and robust reporting
 to ensure financial efficiency and accountability
 
 ## Key Features 
-### Project and Service Group Budgets
+### Project and Service Group Budgets                
 Customization: Set specific budgets for individual projects and service groups able to 
 allocate funds monthly, quarterly, or yearly. This allows for precise financial management 
 aligned with project timelines and business cycles.
@@ -12,10 +12,10 @@ aligned with project timelines and business cycles.
 Adaptability: Adjust budget allocations as needed based on project demands and financial 
 forecasting, ensuring resources are utilized effectively.
 
-### Budget Alerts
+### Budget Alerts                                                                            
 Percentage-Based Alerts: Configure alerts to trigger when spending reaches a predefined 
 percentage of the budget. This proactive approach helps prevent budget overruns and 
-maintains financial control.
+maintains financial control.                       
 
 Immediate Notifications: Receive timely alerts via email to take necessary actions or review 
 budget plans. This ensures that stakeholders are always informed and can respond quickly 

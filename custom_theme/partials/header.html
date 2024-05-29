@@ -1,65 +1,95 @@
 <style>
-  .custom-header {
-    display: flex;
-    align-items: center;
-    background-color: #000000; /* Adjust as needed */
-    padding: 10px 20px;
-    font-family: 'Poppins', sans-serif; /* Apply Poppins font */
-  }
+.custom-header {
+  display: flex;
+  /* align-items: center; */
+  align-items: left;
+  background-color: white; 
+  padding: 10px;
+  padding-right: 0;
+  font-family: 'Poppins', sans-serif; 
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+  /* justify-content: space-between; */
+  float: 'left';
+}
 
-  .logo {
-    flex: 1;
-    margin-right: auto; /* Push the logo to the left */
-  }
+.logo {
+  box-shadow: none; 
+}
 
-  .logo-image {
-    height: 40px; /* Adjust as needed */
-    width: 100px;
-  }
+.logo-image {
+  height: 40px; 
+  width: auto; 
+  box-shadow: none;
+}
 
-  .custom-nav {
-    flex: 3;
-    text-align: right;
-  }
+.custom-nav {
+  flex: 1; 
+  display: flex;
+  /* justify-content: left;  */
+  float: 'left';
+  align-items: center;
+}
 
-  .custom-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between; /* Spread menu items with equal gaps */
-  }
+.custom-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 5px; 
+}
 
-  .custom-nav li {
-    margin-left: 20px; /* Adjust spacing between menu items */
-  }
+.custom-nav li {
+  margin-left: 20px;
+}
 
-  .custom-nav a {
-    color: white;
-    text-decoration: none; 
-    font-weight: bold;
-  }
+.custom-nav a {
+  color: black;
+  text-decoration: none;
+  font-weight: normal; /* Default font weight to normal */
+}
 
-  .custom-nav a:hover {
-    text-decoration: underline;
-  }
+.custom-nav a:hover {
+  text-decoration: underline;
+}
 
-  .demo-button {
-    background-color: #774EBE; /* Purple color */
-    color: white;
-    padding: 8px 16px;
-    border-radius: 20px; /* Rounded edges */
-    text-decoration: none;
-  }
+.buttons {
+  display: flex;
+  margin: -10px;
+
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.start-trial, .schedule-demo {
+  padding: 8px 16px;
+  padding-top: 22px;
+  text-decoration: none;
+  color: white;
+  float: 'right';
+  box-sizing: border-box;
+}
 
 
 
-   /* hamburger menu */
- .menu-toggle {
+.start-trial {
+  background-color: #f3e5ff; /* Light purple color */
+  color: #000; /* Black text */
+  float: 'right';
+}
+
+.schedule-demo {
+  background-color: #ff7a7a; /* Light red color */
+  color: #000; /* Black text */
+  float: 'right';
+}
+
+/* Hamburger menu */
+.menu-toggle {
   display: none;
   cursor: pointer;
   font-size: 24px;
 }
+
 /* Slide menu */
 .slide-menu {
   position: fixed;
@@ -101,14 +131,9 @@
   color: #AC8AE7;
 }
 
-/* .slide-menu ul li a:hover,
-.slide-menu ul li a.selected {
-  color: #AC8AE7; 
-} */
-
 .slide-menu ul li:hover,
 .slide-menu ul li.selected {
-  color: #AC8AE7; /* Change text color on hover and selection */
+  color: #AC8AE7;
 }
 
 .slide-menu ul li a {
@@ -129,47 +154,44 @@
   left: 0;
 }
 
+
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-
 <div class="custom-header">
   <div class="menu-toggle" id="menu-toggle">☰</div>
-  <!-- <ul id="menu">
+  <div class="logo">
+    <img src="{{ base_url }}/images/Purple Data white 3 1.svg" alt="Logo" class="logo-image">
+  </div>
+  <nav class="custom-nav">
+    <ul>
+      <li><a href="https://www.purpledatainc.com/">HOME</a></li>
+      <li><a href="https://www.purpledatainc.com/">FEATURES</a></li>
+      <li><a href="https://www.purpledatainc.com/about-us">COMPANY</a></li>
+      <li><a href="https://www.purpledatainc.com/technology-partners">TECHNOLOGY PARTNERS</a></li>
+      <li><a href="https://www.purpledatainc.com/solutions">SOLUTIONS</a></li>
+      <li><a href="https://www.purpledatainc.com/">SUBSCRIPTIONS</a></li>
+      <li><a href="https://www.purpledatainc.com/blog">BLOG</a></li>
+      <li><a href="#">USER GUIDE</a></li>
+    </ul>
+  </nav>
+  <div class="buttons">
+    <a href="https://yogecreative.wixstudio.io/puurpledata/blank-7" class="start-trial">START TRIAL</a>
+    <a href="https://yogecreative.wixstudio.io/puurpledata" class="schedule-demo">SCHEDULE DEMO</a>
+  </div>
+</div>
+<div id="slide-menu" class="slide-menu">
+  <h2 class="menu-heading">Table of Contents</h2>
+  <ul>
     {% for item in nav %}
     <li><a href="{{ item.url }}">{{ item.title }}</a></li>
     {% endfor %}
-  </ul> -->
-    <div class="logo">
-      <img src="{{ base_url }}/images/logo.jpeg" alt="Logo" class="logo-image">
-    </div>
-    <nav class="custom-nav">
-      <ul>
-        <li><a href="https://www.purpledatainc.com/">Home</a></li>
-        <li><a href="https://www.purpledatainc.com/">Features</a></li>
-        <li><a href="https://www.purpledatainc.com/about-us">Company</a></li>
-        <li><a href="https://www.purpledatainc.com/technology-partners">Technology Partners</a></li>
-        <li><a href="https://www.purpledatainc.com/solutions">Solutions</a></li>
-        <li><a href="https://www.purpledatainc.com/">Subscriptions</a></li>
-        <li><a href="https://www.purpledatainc.com/blog">Blog</a></li>
-        <li><a href="#">User Guide</a></li>
-        <li><a href="https://www.purpledatainc.com/" class="demo-button">Try Demo</a></li> <!-- "Try Demo" button -->
-      </ul>
-    </nav>
-  </div>
-  <div id="slide-menu" class="slide-menu">
-    <h2 class="menu-heading">Table of Contents</h2>
-    <ul>
-      {% for item in nav %}
-      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
+  </ul>
+</div>
 
-
-  <script>
+<script>
 document.addEventListener("DOMContentLoaded", function() {
   var menuToggle = document.getElementById("menu-toggle");
   var slideMenu = document.getElementById("slide-menu");
@@ -198,6 +220,4 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
 });
-
-
-  </script>
+</script>
