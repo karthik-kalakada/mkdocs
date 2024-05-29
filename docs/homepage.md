@@ -7,7 +7,7 @@ Signing In:
 
 ![Signing In](images/login.png){: width="400"}
 
-## Home Page/Landing Page
+## Home Page/Landing Page 
 
 The home page of each CloudPi workspace is designed to give you a comprehensive overview at a glance, facilitating efficient management and monitoring of your cloud environment. It serves as a central dashboard that highlights crucial information, tasks, and project health to streamline your workflow.
 

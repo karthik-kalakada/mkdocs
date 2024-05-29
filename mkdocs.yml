@@ -36,7 +36,7 @@ theme:
   
   language: en
   palette:
-        # scheme: slate
+        primary: 'white'
         primary: Dark moderate violet
         accent: deep purple 
          
