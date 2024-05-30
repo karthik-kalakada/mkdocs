@@ -3,7 +3,8 @@ site_url: https://docs.purpledatainc.com
 theme:
   # custom_dir: overrides
   name: material
-  logo: images/logo.jpeg    
+  logo: images/logo.jpeg 
+  favicon: images/favicon.png
   font:
     text: Poppins
     text: 14px  
@@ -83,6 +84,7 @@ extra_css:
   # - bootstrap.min.css
 
 
+use_directory_urls: true
 
 markdown_extensions:
   # - toc:

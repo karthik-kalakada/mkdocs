@@ -5,7 +5,7 @@ configurations, deployment, and management efficiently and reliably. By leveragi
 Terraform within CloudPi, users can implement Infrastructure as Code (IaC) practices to 
 streamline the provisioning and management of their cloud environments.
 
-## Key Features
+## Key Features 
 ### Terraform Integration
 
 - Comprehensive Automation: Utilize Terraform to automate the provisioning, modification, 
