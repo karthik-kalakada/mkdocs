@@ -12,7 +12,7 @@ aligned with project timelines and business cycles.
 Adaptability: Adjust budget allocations as needed based on project demands and financial 
 forecasting, ensuring resources are utilized effectively.
 
-### Budget Alerts                                                                            
+### Budget Alerts                                                                       
 Percentage-Based Alerts: Configure alerts to trigger when spending reaches a predefined 
 percentage of the budget. This proactive approach helps prevent budget overruns and 
 maintains financial control.                       
