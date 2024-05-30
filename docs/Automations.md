@@ -49,7 +49,7 @@ and configuring settings specific to your cloud environment.
 
 - Deploying and Managing Scripts: Once Terraform is integrated, you can begin deploying 
 CloudPi-specific scripts. These scripts can be managed directly from the CloudPi interface, 
-allowing you to modify, activate, or deactivate them as needed. 
+allowing you to modify, activate, or deactivate them as needed.
 
 - Monitoring Automation: Keep track of the automation processes through CloudPi’s 
 dashboard. This monitoring capability allows you to see real-time updates on the status of 
