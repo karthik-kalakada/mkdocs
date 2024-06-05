@@ -4,7 +4,7 @@ project and service group levels, with customizable alerts, and robust reporting
 to ensure financial efficiency and accountability
 
 ## Key Features 
-### Project and Service Group Budgets               
+### Project and Service Group Budgets              
 Customization: Set specific budgets for individual projects and service groups able to 
 allocate funds monthly, quarterly, or yearly. This allows for precise financial management 
 aligned with project timelines and business cycles.

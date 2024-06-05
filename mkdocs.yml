@@ -7,7 +7,7 @@ theme:
   favicon: images/favicon.png
   font:
     text: Poppins
-    text: 14px  
+    text: 0px  
   custom_dir: custom_theme    
   
   features:

@@ -5,16 +5,19 @@
   /* --md-primary-fg-color--dark:  #90030C; */
 }
 
-/* .md-main__inner {
-  margin-top: 0px  ;
-} */
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+.md-main__inner {
+  margin: 0px  ;
+}
 
 /* reduce font size */
 
 
 /* Styling for the navigation menu */
 .md-nav--primary .md-nav__list {
-    background-color: #dfdfdf;
+    background-color: #eecbe90f;
      /* Background color for the menu section */
     /* border-right: 2px solid #ddd;  */
     /* Border on the right side of the menu section */
@@ -49,7 +52,8 @@
   } */
   
   .md-nav--primary .md-nav__item{
-    background-color: #d7d7d7;
+    background-color: #eecbe925;
+    /* background-image: linear-gradient(to bottom right, #C47BF4, #F08753); */
 
   }
   .md-nav--primary .md-nav__link{
@@ -68,7 +72,8 @@
   .md-nav--primary .md-nav__list a:hover{
     width: 106%;
     background-color: #ffffff; 
-    color: #51308B;
+    /* color: #51308B; */
+    color: black;
     margin-left: -12px;
   }
 
@@ -91,7 +96,7 @@
 .md-nav--secondary .md-nav__list a:active {
     font-size: calc(1em + 0.1pt);
     font-weight: bold;
-
+  
 }
 
 .md-nav--secondary .md-nav__list ul{
@@ -154,17 +159,50 @@ img {
   [dir=ltr] .md-nav--primary .md-nav__list {
       padding-left: .1rem;
   }
-}
+}  
 
 .md-sidebar__scrollwrap{
   margin: 0;
-  scrollbar-color: #6F44A6;
+  scrollbar-color: #eecbe90f;
 }
 
 .md-content__inner h1{
-  font-size: 24px;
+  font-size: 20px;
+  color: black;  
+  
 }
 
 .md-content__inner h2{
-  font-size: 22px;
+  font-size: 18px;
+}
+.md-content__inner p{
+  font-size: 14px;
+  color: rgb(54, 54, 54);
+}
+
+
+
+/* Custom CSS to change bullet points to arrow marks */
+.md-container ul li {
+  list-style: none; /* Remove default bullet points */
+  position: relative; /* Establish a positioning context for the pseudo-element */
+}
+
+.md-container ul li::before {
+  content: "\f0da"; /* Unicode for fa-caret-right */
+  font-family: "Font Awesome 5 Free"; /* Use Font Awesome font family */
+  position: absolute; /* Position the pseudo-element relative to the list item */
+  font-weight: 900; /* Ensure the correct weight (solid style) */
+  left: -20px; /* Adjust position to place the arrow in the desired location */
+  color: inherit; /* Use the same color as the text */
+}
+
+/* remove shadow from first image in intro section */
+.no-shadow {
+  box-shadow: none !important;
+}
+
+.md-typeset li{
+  font-size: 14px;
+  color: rgb(69, 69, 69);
 }
