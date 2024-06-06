@@ -219,3 +219,21 @@ img {
 .md-nav__link--passed {
   color: black;
 }
+
+/* gradient for top left menu heading */
+@keyframes gradient-animation {
+  0% {
+      background-position: 0% 50%;
+  }
+  100% {
+      background-position: 100% 50%;
+  }
+}
+.md-nav--primary .md-nav__title {
+  background: linear-gradient(to right, #815ccc, #016cff);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  animation: gradient-animation 0.5 linear infinite;
+}
