@@ -3,12 +3,12 @@ site_url: https://docs.purpledatainc.com
 theme:
   # custom_dir: overrides
   name: material
-  logo: images/logo.jpeg 
+  logo: null 
   favicon: images/favicon.png
   font:
     text: Poppins
     text: 0px  
-  custom_dir: custom_theme    
+  # custom_dir: custom_theme    
   
   features:
     # - toc.integrate 
@@ -38,14 +38,14 @@ theme:
   language: en
   palette:
         primary: 'white'
-        primary: Dark moderate violet
+        # primary: Dark moderate violet
         accent: deep purple 
          
 extra_javascript:
   - js/custom.js
 
 nav:
-    - '<i class="fa fa-info-circle"></i> Introduction': index.md 
+    - '<i class="fa fa-info-circle"></i>  Introduction': index.md 
     - '<i class="fa fa-universal-access"></i> RBAC': rbac.md
     - '<i class="fa fa-lock" aria-hidden="true"></i> Security': security.md  
     # - '<i class="fa fa-window-maximize"></i> Workspace Settings': workspace.md
