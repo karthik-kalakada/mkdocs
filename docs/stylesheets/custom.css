@@ -2,7 +2,9 @@
   display: none !important;
 } */
 
-
+.md-header {
+  display: none;
+}
 :root {
   /* --md-primary-fg-color:        #EE0F0F; */
   --md-primary-fg-color:        #6F44A6;
