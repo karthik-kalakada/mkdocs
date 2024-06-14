@@ -8,7 +8,7 @@ theme:
   font:
     text: Poppins
     text: 0px  
-  # custom_dir: custom_theme    
+  custom_dir: custom_theme    
   
   features:
     # - toc.integrate 
